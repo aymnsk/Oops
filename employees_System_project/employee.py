@@ -9,4 +9,4 @@ class employee:
         return f'employee {self.Name} has age {self.age} and salary {self.salary}'
     
     def __repr__(self):
-        return F'employee(name={self.Name},age={self.age},salary{self.salary})'
+        return F'employee(name={self.Name},age={self.age},salary={self.salary})'
